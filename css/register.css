@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ffff;
+}
+
+#register-form{
+  height: 70%;
+  width: 60%;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  background: #2F4F4F;
+  text-align: center;
+  border-radius: 10px;  
+  /* transform: translate(0%, 14%); */
+}
+
+#register-form h1{
+  color: white;
+  text-transform: uppercase;
+}
+
+#register-form #user-name, #register-form #user-password, #register-form #user-email{
+  border: 0;
+  display: inline-block;
+  margin: 20px auto;
+  background: none;
+  text-align: center;
+  border: solid 2px #ffff;
+  padding: 14px 10px;
+  width: 65%;
+  height: 33px;
+  font-size: 2em;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  transition: 0.25s;
+}
+
+/* #register-form #user-name:focus, #register-form #user-password:focus,  #register-form #user-email:focus{
+  width: 80%;
+  border-color: #388E3C;
+  font-size: 1.5em;
+} */
+
+#register-form #button{
+  display: inline-block;
+  width: 45%;
+  margin: 10px auto;
+  padding: 14px;
+  background: none;
+  color: white;
+  border-radius: 25px;
+  border: solid 2px #ffff;
+  font-size: 1em;
+}
+
+#register-form #button:hover{
+  background: #388E3C;
+}
+
+#register-form #login_link{
+  margin-top: 20px;
+}
+
+#register-form #login_link a{
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #ffff;
+}
+
+#register-form #login_link a:hover{
+  text-decoration: underline;
+  font-size: 1.5em;
+}

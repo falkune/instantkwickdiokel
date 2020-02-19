@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ffff;
+}
+
+#login-form{
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  background: #2F4F4F;
+  text-align: center;
+  border-radius: 10px;  
+  /* transform: translate(0%, 14%); */
+}
+
+#login-form h1{
+  color: white;
+  text-transform: uppercase;
+}
+
+#login-form #user-name, #login-form #user-password{
+  border: 0;
+  display: inline-block;
+  margin: 20px auto;
+  background: none;
+  text-align: center;
+  border: solid 2px #ffff;
+  padding: 14px 10px;
+  width: 65%;
+  height: 33px;
+  font-size: 2em;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  transition: 0.25s;
+}
+
+#login-form #user-name:focus, #login-form #user-password:focus{
+  width: 80%;
+  border-color: #388E3C;
+  font-size: 1.5em;
+}
+
+#login-form #button{
+  display: inline-block;
+  width: 45%;
+  margin: 10px auto;
+  padding: 14px;
+  background: none;
+  color: white;
+  border-radius: 25px;
+  border: solid 2px #ffff;
+  font-size: 1em;
+}
+
+#login-form #button:hover{
+  background: #388E3C;
+}
+
+#login-form #register_link{
+  margin-top: 40px;
+}
+
+#login-form #register_link a{
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #ffff;
+}
+
+#login-form #register_link a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 1.5em;
+}
